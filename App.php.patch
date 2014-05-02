@@ -1,0 +1,12 @@
+--- a/App.php
++++ b/App.php
+@@ -18,7 +18,7 @@
+ 	public function __construct($app_abs_path, $app_abs_href, $abs_href) {
+ 
+ 		$this->app_abs_path = normalize_path($app_abs_path);
+-		$this->root_abs_path = normalize_path(dirname($this->app_abs_path));
++		$this->root_abs_path = '/var/www';
+ 
+ 		$this->app_abs_href = normalize_path($app_abs_href, true);
+ 		$this->root_abs_href = normalize_path(dirname($this->app_abs_href), true);
+

@@ -1,0 +1,44 @@
+--- a/options.json
++++ b/options.json
+@@ -44,12 +44,12 @@
+ 	*/
+ 	"view": {
+ 		"modes": ["details", "grid", "icons"],
+-		"sizes": [48, 24, 96],
++		"sizes": [24, 48, 96],
+ 		"setParentFolderLabels": true,
+ 		"hideParentFolderLinks": false,
+ 		"hideFolders": false,
+ 		"binaryPrefix": false,
+-		"indexFiles": ["index.html", "index.htm", "index.php"],
++		"indexFiles": [],
+ 		"ignore": ["^\\.", "^_h5ai"],
+ 		"smartBrowsing": true,
+ 		"extInNewWindow": false
+@@ -188,7 +188,7 @@
+ 		2: mode, servername and -version
+ 	*/
+ 	"mode": {
+-		"enabled": true,
++		"enabled": false,
+ 		"display": 2
+ 	},
+ 
+@@ -280,7 +280,7 @@
+ 	- checkboxes: boolean, show a checkbox on mouse over item
+ 	*/
+ 	"select": {
+-		"enabled": true,
++		"enabled": false,
+ 		"checkboxes": true
+ 	},
+ 
+@@ -344,7 +344,7 @@
+ 	- maxSubfolders: max number of subfolders to show in tree
+ 	*/
+ 	"tree": {
+-		"enabled": true,
++		"enabled": false,
+ 		"slide": true,
+ 		"maxSubfolders": 50
+ 	}
